@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    height: 100vh;
+    
+    background-color: #fff
+}
+
+
+
+
+header{
+      margin-left: 60px;
+      display: inline-block;
+      align-items: center;
+}
+.header-one{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.logo{
+    margin-right: 70px;
+}
+
+
+
+
+
+
+nav.menu-lateral{
+    padding-left: 30px;
+      width: 50px;
+      height: 100%;
+      background-color: black;
+      padding: 40px 0 40px;
+      box-shadow: 3px 0px 0px red;
+      position: fixed;
+      top: 0;
+      left: 0;
+      overflow: hidden;
+      transition: 0.5s ;
+}
+nav.menu-lateral:hover{
+   width: 300px;
+  
+}
+nav ul{
+    height: 100%;
+    list-style-type: none;
+}
+nav ul li  a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    line-height: 40px;
+}
+
+nav ul li:hover{
+    background-color: red;
+}
+nav ul li:hover{
+     transition: 1s;
+}
+nav ul li  a .txt-link{
+    margin-left: 20px;
+}
+nav ul li  a .icon > i{
+    font-size: 30px;
+}
+.btn-expandir{
+    width: 100%;
+    padding-left: 30px;
+    
+}
+.btn-expandir > i{
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+   
+}
+
